@@ -6,7 +6,6 @@ const vowels = (input) => {
             max = i
         }
     }
-
     console.log(max)
 }
 
