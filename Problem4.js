@@ -1,4 +1,4 @@
-const vowels = (input) => {
+const max_num = (input) => {
 
     let max = input[0];
     for (let i of input) {
@@ -9,4 +9,4 @@ const vowels = (input) => {
     console.log(max)
 }
 
-vowels([5, 1, 9, 3])
+max_num([5, 1, 9, 3])
