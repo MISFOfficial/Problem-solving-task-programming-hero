@@ -9,6 +9,7 @@
 const max_num = (input) => {
 
     let max = input[0];
+
     for (let i of input) {
         if (i > max) {
             max = i
