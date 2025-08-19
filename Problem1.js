@@ -5,9 +5,8 @@
 // Input: "hello"
 // Output: "olleh"
 
-const string = () => {
+const string = (input) => {
     
-    let input = "hello"
     reversed = ""
     for (let i = input.length -1; i>=0; i--) {
         // console.log(i, input[i])
@@ -20,4 +19,4 @@ const string = () => {
 
 }
 
-string()
+string("hello")
